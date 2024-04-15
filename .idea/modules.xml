@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Assignments/A01/A01.iml" filepath="$PROJECT_DIR$/Assignments/A01/A01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Assignments/A02/A02.iml" filepath="$PROJECT_DIR$/Assignments/A02/A02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Assignments/A03/A03.iml" filepath="$PROJECT_DIR$/Assignments/A03/A03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Assignments/A04/A04.iml" filepath="$PROJECT_DIR$/Assignments/A04/A04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Assignments/A05/A05.iml" filepath="$PROJECT_DIR$/Assignments/A05/A05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/C212_Intro_to_software_system.iml" filepath="$PROJECT_DIR$/.idea/C212_Intro_to_software_system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Labs/Lab01/Lab01.iml" filepath="$PROJECT_DIR$/Labs/Lab01/Lab01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Labs/Lab02/Lab02.iml" filepath="$PROJECT_DIR$/Labs/Lab02/Lab02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Labs/Lab03/Lab03.iml" filepath="$PROJECT_DIR$/Labs/Lab03/Lab03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Labs/Lab05/Lab05.iml" filepath="$PROJECT_DIR$/Labs/Lab05/Lab05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Labs/Lab07/Lab07.iml" filepath="$PROJECT_DIR$/Labs/Lab07/Lab07.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Labs/Lab08/Lab08.iml" filepath="$PROJECT_DIR$/Labs/Lab08/Lab08.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Labs/Lab09/Lab09.iml" filepath="$PROJECT_DIR$/Labs/Lab09/Lab09.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Labs/Lab10/Lab10.iml" filepath="$PROJECT_DIR$/Labs/Lab10/Lab10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Labs/Lab11/Lab11.iml" filepath="$PROJECT_DIR$/Labs/Lab11/Lab11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mini-Project/Mini-Project.iml" filepath="$PROJECT_DIR$/Mini-Project/Mini-Project.iml" />
+    </modules>
+  </component>
+</project>
