@@ -15,6 +15,5 @@ public class Item {
     public double getPrice() {return price;}
     public int getQuantity() {return quantity;}
     public int getAisle() {return aisleNum;}
-//    Test
 }
 
