@@ -4,6 +4,6 @@ public class StoreMain {
     public static void main(String[] args){
         // Instantiate the Store object
         Store store = new Store();
-
+        store.takeAction();
     }
 }

@@ -6,6 +6,5 @@ class FileUtilsTest {
 
     @org.junit.jupiter.api.Test
     void readInventoryFromFile() {
-        
     }
 }

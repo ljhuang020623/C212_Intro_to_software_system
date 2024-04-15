@@ -4,7 +4,6 @@ import edu.iu.c212.models.*;
 
 import java.io.File;
 import java.io.IOException;
-import java.nio.file.Files;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -43,7 +42,7 @@ public class FileUtils {
         return items;
     }
 
-    public List<Staff> readStaffFromFile() throws IOException {
+    public static List<Staff> readStaffFromFile() throws IOException {
         if(!staffFile.exists()){throw new IOException("The staff file does not exist.");}
 
         List<Staff> staffs = new ArrayList<>();
@@ -76,18 +75,44 @@ public class FileUtils {
         return staffs;
     }
 
-    public void writeInventoryToFile(List<Item> items) {
-        // TODO
+    public static void writeInventoryToFile(List<Item> items) {
+
 
     }
 
-    public void writeStaffToFile(List<Staff> employees) {
+    public static void writeStaffToFile(List<Staff> employees) {
         // TODO
     }
 
-    public static List<String> readCommandsFromFile() throws IOException {
-        // TODO
-        return null;
+    public static List<String[]> readCommandsFromFile() throws IOException {
+        Scanner scanner = new Scanner(inputFile);
+        List<String[]> commands = new ArrayList<String[]>();
+        while(scanner.hasNextLine()){
+
+            String line = scanner.nextLine();
+            List<String> parts = new ArrayList<>();
+            boolean inQuotes = false;
+            StringBuilder buffer = new StringBuilder();
+
+            for(char c : line.toCharArray()){
+                if(c == '\''){
+                    inQuotes = !inQuotes;
+                }else if(c == ' ' && !inQuotes){
+                    if(buffer.length() > 1){
+                        parts.add(buffer.toString());
+                        buffer = new StringBuilder();
+                    }
+                }else{
+                    buffer.append(c);
+                }
+            }
+            if(buffer.length() > 1){
+                parts.add(buffer.toString());
+            }
+            commands.add(parts.toArray(new String[0]));
+        }
+        scanner.close();
+        return commands;
     }
 
     public static void writeStoreScheduleToFile(List<String> lines) {
